@@ -2,12 +2,15 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 // --- NEW IMPORTS ---
-import JobCard from '../../../project-stage-2 copy/src/JobCard';
-import Report from '../../../project-stage-2 copy/src/Report';
+import JobCard from './JobCard';
+import Report from './Report';
 
 // --- API Configuration ---
+// const api = axios.create({
+//     baseURL: 'https://us-central1-cs348-project-e4027.cloudfunctions.net/api',
+// });
 const api = axios.create({
-    baseURL: 'http://localhost:5001/api',
+    baseURL: 'https://api-rg3xpnythq-uc.a.run.app/api',
 });
 
 // --- Hardcoded String Types ---

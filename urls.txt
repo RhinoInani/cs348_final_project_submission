@@ -1,0 +1,2 @@
+Link to web-app: https://cs348-project-e4027.web.app
+Link to github: https://github.com/RhinoInani/cs348_final_project_submission
